@@ -1,0 +1,50 @@
+body {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .widget {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: #222;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color:  #fad0c4;
+    transition: width 0.3s ease;
+  }
+  
+  #progress-text {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  #progress-input {
+    width: 100%;
+  }
+  
